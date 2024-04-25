@@ -1,0 +1,62 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+select,
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #369676;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+select:hover,
+button:hover {
+  background-color: #0056b3;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:last-child {
+  margin-right: 0;
+}
+
+button.primary {
+  background-color: #28a745;
+}
+
+button.primary:hover {
+  background-color: #218838;
+}
+
+button.secondary {
+  background-color: #ffc107;
+}
+
+button.secondary:hover {
+  background-color: #e0a800;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #666;
+}
